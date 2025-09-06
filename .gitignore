@@ -25,7 +25,6 @@ __pycache__/
 venv/
 ENV/
 env/
-output.png
 .DS_Store
 Thumbs.db
 .idea/
