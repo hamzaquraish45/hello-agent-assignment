@@ -1,0 +1,50 @@
+# Python & uv project .gitignore
+# Ignore Python cache, venvs, build artifacts, and secrets
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg-info/
+*.egg
+*.log
+*.pot
+*.mo
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
+*.vscode/
+.venv/
+venv/
+ENV/
+env/
+output.png
+.DS_Store
+Thumbs.db
+.idea/
+.env
+.env.*
+# Ignore uv lock files if desired
+uv.lock
+# Ignore test output
+coverage.xml
+htmlcov/
+.tox/
+.mypy_cache/
+.pytest_cache/
+# Ignore build/dist folders
+dist/
+build/
+# Ignore OS junk
+*.~
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+# Ignore VS Code settings
+.vscode/
