@@ -28,7 +28,7 @@ A packaged Python app using the OpenAI Agents SDK and uv. This agent exposes a C
 
 ## Output
 
-![Agent Output](Output.PNG)
+![Agent Output](output.PNG)
 
 ## Security
 - `.env` is ignored by `.gitignore` and never committed
